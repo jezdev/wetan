@@ -1,0 +1,36 @@
+/* *{
+    outline: red solid 1px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* .preload * { transition: none !important; } */
+.font-ds { font-family: 'Dancing Script', cursive; }
+.italic { font-style: italic; }
+.v-align { vertical-align: middle; }
+.v-align-b { vertical-align: bottom; }
+.bb { border-bottom: solid 1px #eee }
+
+li { list-style:inside; padding: 0; }
+ul, ol { padding: 1rem; }
+
+#about svg { font-size: 2.4rem; }
+.bar svg { font-size: 1.8rem!important; }
+.social-fb svg { font-size: 1.6rem!important; }
+.social-insta svg { font-size: 1.6rem!important; }
+#reviews svg.ql { position: relative; }
+#reviews svg.qr { transform: rotate(180deg); }
+#main-caroulix.indexpage {
+     max-height:40vw;
+     object-fit: contain;
+     object-position: center;
+}
+#main-caroulix {
+     max-height:30vw;
+     object-fit: contain;
+     object-position: center;
+}
+
+.form-material .form-field:not(.form-default) {
+    --form-material-color: #000;
+}

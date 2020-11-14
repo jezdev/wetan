@@ -1,0 +1,39 @@
+/* Gallery & Testimonials */
+
+/* latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'), url(https://fonts.gstatic.com/s/kaushanscript/v9/vm8vdRfvXFLG3OLnsO15WYS5DG74wNI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#gallery{ font-family: 'Kaushan Script', cursive; }
+.img-container{
+    height: 160px;
+    width: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+#gallery img:focus,#gallery img:active{
+    transform: rotate(0);
+    transition: ease-in-out 3s;
+    z-index: 1; 
+}
+.d0{ transform: rotate(0deg); }
+.d5{ transform: rotate(5deg); }
+.d15{ transform: rotate(15deg); }
+.d20{ transform: rotate(20deg); }
+.dn5{ transform: rotate(-5deg); }
+.dn10{ transform: rotate(-10deg); }
+.dn15{ transform: rotate(-15deg); }
+.z0{ z-index: 0; }
+.z1{ z-index: 1; }
+.rotate-none{ transform:unset!important; }
+.viewAdjust{ min-width: auto; min-height: 95%; }
+.fs-rem-01{ font-size: 0.1rem!important; }
+.fs-rem-05{ font-size: 1em!important; }
+.fs-rem-1{ font-size: 2em!important; }
+.fs-rem-2{ font-size: 2rem!important; }
+.fs-rem-3{ font-size: 3rem!important; }
